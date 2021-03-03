@@ -2,9 +2,9 @@ function Calculate (num1, num2) {
   return num1 + num2
 }
 
-let p1 = prompt("Choose your first number")
-let p2 = prompt("Choose your second number")
+let yourNum1 = prompt("Enter your first number")
+let yourNum2 = prompt("Enter your second number")
 
-let summedNumbers = Calculate(Number(p1),Number(p2))
+let summedNumbers = Calculate(Number(yourNum1),Number(yourNum2))
 
 console.log(summedNumbers)

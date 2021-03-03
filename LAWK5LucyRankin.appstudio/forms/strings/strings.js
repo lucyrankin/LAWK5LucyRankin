@@ -16,13 +16,3 @@ console.log(found)
 let found = "Henry was NOT in the quote string"
   console.log(found)
 }
-
-let secondQuote = "Talent is cheaper than table salt. What separates the talented individual from the successful one is a lot of hard work. - Stephen King"
-let lowerCaseString = secondQuote.toLowerCase()
-
-console.log(`Lower case string is: ${lowerCaseString}.`)
-
-let chosenNumber = prompt("Please choose a number.")
-let biggerNumber = Number(chosenNumber) + 10
-
-console.log(`The number ${chosenNumber} + 10 is ${biggerNumber}.`)
